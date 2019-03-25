@@ -8,4 +8,4 @@
 
 ![Moon](https://github.com/nikospag/bash-moon-phase/blob/master/sample/phase.png)
 
-Requires
+Requires Pyephem and Wand packages.
