@@ -6,7 +6,7 @@ from wand.image import Image
 from wand.drawing import Drawing
 from wand.color import Color
 
-moonpath = "/home/nikospag/Downloads/conky-weather-master/moon.png" #Input (full moon) image file path
+moonpath = "moon.png" #Input (full moon) image file path
 phasepath = "/home/nikospag/.cache/conky/phase.png" #Output image file path
 textpath = "/home/nikospag/.cache/conky/moon.txt" # Output text file path
 m = ephem.Moon()
