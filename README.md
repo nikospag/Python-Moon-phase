@@ -5,3 +5,4 @@
 
 ### This is a Python script.
 ==========================================================
+![Moon](https://github.com/nikospag/bash-moon-phase/blob/master/sample/phase.png)
