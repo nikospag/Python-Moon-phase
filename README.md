@@ -6,4 +6,4 @@
 ### This is a Python script.
 ==========================================================
 
-![Moon](https://github.com/nikospag/Python-Moon-phase/blob/master/moon.png)
+![Moon](https://github.com/nikospag/bash-moon-phase/blob/master/sample/phase.png)
