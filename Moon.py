@@ -74,6 +74,6 @@ with Image(filename=moonpath) as img:
 # Write text data to text file
 with open(textpath, "w") as file:
     file.write("{:.2f}\n".format(age)) #age in percent (%),new moon=0% full moon=50%
-    file.write("{:.2f}\n".format(illum)) #illumination in percent (%)
+    file.write("{:.2f}\n".format(illum)) #illumination in percent (%), new moon=0% full moon=100%
     file.write("{:.0f}\n".format(dist)) #distance in Km
-    file.write("{}\n".format(fullmoon)) #next full moon date
+    file.write("{}\n".format(fullmoon)) #next full moon date and local time 
