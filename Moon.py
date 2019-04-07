@@ -30,6 +30,7 @@ phase = 1 - phase
 if a > 0:
     phase = -phase
 
+#Draw phase shade on input moon image and save
 with Image(filename=moonpath) as img:
     radius = img.height // 2
     with Drawing() as draw:
@@ -70,8 +71,9 @@ with Image(filename=moonpath) as img:
             draw(img)
             img.save(filename=phasepath)
 
+# Write text data to text file
 with open(textpath, "w") as file:
-    file.write("{:.2f}\n".format(age))
-    file.write("{:.2f}\n".format(illum))
-    file.write("{:.0f}\n".format(dist))
-    file.write("{}\n".format(fullmoon))
+    file.write("{:.2f}\n".format(age)) #age in percent (%)
+    file.write("{:.2f}\n".format(illum)) #illumination in percent (%)
+    file.write("{:.0f}\n".format(dist)) #distance in Km
+    file.write("{}\n".format(fullmoon)) #next full moon date
